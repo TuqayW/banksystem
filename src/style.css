@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+h1{
+    color: cornflowerblue;
+    margin-bottom: 10px;
+}
+input{
+    padding: 4px 8px;
+    font-size: 18px;
+}
+ul{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul>li{
+    list-style: none;
+    font-size: 22px;
+    color: cornflowerblue;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.218);
+    width: 200px;
+    text-align:center;
+    padding: 5px;
+}
+ul>li>span{
+    color: black;
+    font-size: 32px;
+}
